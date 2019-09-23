@@ -14,6 +14,7 @@ My recommended way to deploy your app is to "freeze" it.  We're going to create 
 [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/)
 `$ pip install Frozen-Flask`
 
+**freeze.py**
 ```python
 from flask_frozen import Freezer
 from myapp import app
