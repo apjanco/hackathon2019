@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Flask, Part II
-parent: Monday
 nav_order: 2
 ---
 
