@@ -11,6 +11,8 @@ Here are instruction to deploy a Flask app there: [http://bit.ly/flask-deploy](h
 
 My recommended way to deploy your app is to "freeze" it.  We're going to create a static version of your app and all its contents and then deploy them using GitHub pages. This is free and there are other advantages to "minimal computing," which Alex Gil outlines [here](https://des4div.library.northeastern.edu/design-for-diversity-the-case-of-ed-alex-gil/).  In industry, this approach to deployment is often called a [JAMstack](https://jamstack.org/)
 
+[Frozen-Flask](https://pythonhosted.org/Frozen-Flask/)
+`$ pip install Frozen-Flask`
 
 ```python
 from flask_frozen import Freezer
